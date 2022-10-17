@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(245, 231, 231)    
+}
+
+header {
+    padding: 16px 78px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    border-bottom: 2px solid aqua;
+}
+
+.right-content{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.right-content span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    }
+
+
+
+
+.right-content button{
+    margin-left: 100px;
+    padding: 8px  15px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) -35%, rgba(0,212,255,1) 100%);border: none;
+border-radius: 20px;
+}
+
+.right-content button:hover{
+    background: #0096ff;
+}
+
+
+.logo {
+    position: relative;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 132px;
+    margin-bottom: 5px;
+
+}
+
+.logo span {
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    left: 12%;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.select {
+    margin-left: 5%;
+
+
+}
+
+.select select {
+    border: none;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+}
+
+/* category section******************************* */
+.category {
+    margin: 10% 10% 5% 10%;
+    /* width: 100%; */
+    /* background-color: red; */
+}
+
+.title {
+    color: black;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.filter {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.filter span {
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+i {
+    font-size: 25px;
+    color: #0084ff;
+    cursor: pointer;
+}
+
+.categories {
+    width: auto;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.categories span {
+    margin: 8px 5px;
+    padding: 6px 14px;
+    border: 1px solid #0084ff;
+    border-radius: 15px;
+}
+
+.categories .active  a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active  {
+    color: white;
+    background-color: #0084ff;
+    
+}
+
+/* card section ********************************************/
+
+.card {
+    width: 30%;
+    display: inline-block;
+    background-color: azure;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 5px black;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.text-content {
+    padding: 10px 24px;
+}
+
+.image img {
+    width: 100%;
+    height: 176px;
+
+
+}
+
+.heading h1 {
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    text-overflow: ellipsis;
+    font-weight: 600;
+}
+
+.author {
+    padding-top: 4px;
+    color: #0096ff;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.date {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 10px 0;
+}
+
+
+
+/* footer section */
+
+.footer {
+    background-color: #172146;
+    padding: 80px 16%;
+}
+
+
+
+
+
+
