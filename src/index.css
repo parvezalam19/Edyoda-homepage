@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,600;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    /* color: white; */
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+    background-color: rgb(245, 231, 231)    
+}
+
+header {
+    padding: 16px 78px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    border-bottom: 2px solid aqua;
+}
+
+.right-content{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.right-content span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    }
+
+
+
+
+.right-content button{
+    margin-left: 100px;
+    padding: 8px  15px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) -35%, rgba(0,212,255,1) 100%);border: none;
+border-radius: 20px;
+}
+
+.right-content button:hover{
+    background: #0096ff;
+}
+
+
+.logo {
+    position: relative;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 132px;
+    margin-bottom: 5px;
+
+}
+
+.logo span {
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    left: 12%;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.select {
+    margin-left: 5%;
+
+
+}
+
+.select select {
+    border: none;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+}
+
+
+.main-section{
+  margin: 10% 10% 10% 14%;
+
+}
+
+.trending-post-box{
+  display:flex ;
+  margin-bottom: 20px;
+
+}
+
+
+
+.trending-right-cont{
+  gap: 20px;
+  flex: 30%;
+  display: flex;
+  flex-direction: column;
+ margin-left: 10px;
+ 
+}
+
+.main-title{
+  font-size: 40px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+/* category section******************************* */
+.category {
+    margin: 10% 10% 5% 10%;
+   
+}
+
+.title {
+    color: black;
+    font-weight: 600;
+    font-size: 35px;
+  margin-top: 50px;
+}
+
+.filter {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.filter span {
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+i {
+    font-size: 25px;
+    color: #0084ff;
+    cursor: pointer;
+}
+
+.categories {
+    width: auto;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.categories span {
+    margin: 8px 5px;
+    padding: 6px 14px;
+    border: 1px solid #0084ff;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.categories span:hover{
+    background-color: #0084ff;
+}
+.categories span:hover a{
+    /* background-color: #0084ff; */
+    color: white;
+
+}
+.categories .active  a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active  {
+    color: white;
+    background-color: #0084ff;
+    
+}
+.cards-empty-message{
+    color: black;
+    text-align: center;
+    margin-left: 350px;
+}
+
+/* card section ********************************************/
+.card-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+    width: 30%;
+    background-color: azure;
+    border-radius: 5px;
+    margin: 15px;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 10%);
+
+    overflow: hidden;
+   
+   
+}
+
+.text-content {
+    padding: 10px 24px;
+}
+
+.image img {
+    width: 100%;
+    height: 200px;
+    /* object-fit: cover; */
+   
+
+
+}
+
+.heading h1 {
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.author {
+    padding-top: 10px;
+    color: #0096ff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.date {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 10px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* footer section */
+
+.Footer {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #172746;
+    padding: 40px 8%;
+    box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);
+    color: #fff;
+}
+.Footer__Row{
+   
+    display: flex;
+    
+    flex-direction: row;
+    
+}
+.Footer__Column{
+    width: 40%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 10px;
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .3px;
+    text-align: left;
+    color: #fff;
+    margin-top: 0;
+    margin-left: 70px;
+}
+
+.Footer__ColumnHeading{
+    margin-bottom: 0;
+    color: hsla(0,0%,100%,.5);
+    font-weight: 500;
+}
+.Footer__Column a{
+    cursor: pointer;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px 0;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+
+@media only screen and (max-width : 400px){
+header{
+    padding: 0;
+}
+.right-content span {
+    display: none;
+}
+.main-title{
+    margin-top: 73px;
+}
+.main-section{
+    margin: 0 10px;
+}
+.trending-post-box{
+    width: 100%;
+}
+.trending-left-cont{
+width: 100%;
+}
+.trending-right-cont{
+    display: none;
+}
+.trending-left-cont img{
+    width: 100%;
+}
+.categories{
+    width: 100%;
+}
+.categories span{
+    margin: 2px 4px;
+    padding: 4px 6px;
+    border-radius: 10px;
+}
+.categories a{
+    font-size: 13px;
+}
+.card-section{
+margin-top: 100px;
+}
+.card{
+    /* width: 15px; */
+    width: 150px;
+    height: 280px;
+    margin: 10px 5px;
+}
+.image{
+    width:100%;
+    height: 100px;
+}
+.image img{
+    /* height: 0; */
+    height: 100%;
+    /* width: 100%; */
+}
+.text-content{
+    padding: 5px 10px;
+    overflow: hidden;
+}
+.desc{
+    margin-bottom: 10px;
+}
+.text-content p{
+    overflow: hidden;
+    font-size: 13px;
+    margin-bottom: -70px;
+}
+.author{
+    font-size: 10px;
+}
+.heading h1{
+    font-size: 10px;
+}
+.Footer{
+padding: 20px 10px;
+}
+.Footer__Row {
+    flex-wrap: wrap;
+}
+.Footer__Column{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.select select{
+    font-size: 15px;
+}
+
+.cards-empty-message{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+}
